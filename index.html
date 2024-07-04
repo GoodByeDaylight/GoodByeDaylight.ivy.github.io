@@ -1,39 +1,91 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>シンプルなウェブサイト</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="keywords" content="原神">
+    <title>原神紹介サイト</title>
+    <meta name="description" content="完全自己満サイト">
+    <link href="style.css" rel="stylesheet" media="all">
 </head>
 <body>
-    <header>
-        <h1>私のウェブサイト</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#home">ホーム</a></li>
-            <li><a href="#about">私について</a></li>
-            <li><a href="#contact">コンタクト</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="home">
-            <h2>ホーム</h2>
-            <p>これはホームページのセクションです。</p>
-        </section>
-        <section id="about">
-            <h2>私について</h2>
-            <p>これは「私について」のセクションです。</p>
-        </section>
-        <section id="contact">
-            <h2>コンタクト</h2>
-            <p>これはコンタクトのセクションです。</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 私のウェブサイト</p>
-    </footer>
-    <script src="scripts.js"></script>
+
+<header>
+<h1>原神紹介サイト</h1>
+</header>
+
+<nav>
+<ul>
+    <li><a href="intro">ゲーム概要</a></li>
+    <li><a href="kyarakuta">キャラクター</a></li>
+    <li><a href="town">テイワットの各街</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section id="intro">
+<h2>ゲーム概要</h2>
+<p>「原神」は、miHoYoが開発・運営するオープンワールド型アクションＲＰＧです。プレイヤーは広大なファンタジー世界「テイワット」を探索し、様々なキャラクターと共に冒険を繰り広げます。<br>
+特徴として、広大なオープンワールド探索や多彩なキャラクターとスキルそして、戦略的な戦闘システムを楽しみながらさらに楽しめる豊富なストーリーとクエストなどがあります。</p>
+</section>
+
+<section id="kyarakuta">
+<h2>キャラクター</h2>
+<p>各キャラクターは異なる元素とスキルを持ち、プレイヤーの戦術に大きな影響を与えます。以下は主なキャラクターの一部です。</p>
+
+<h3 class="character-name">旅人</h3>
+<p>主人公</p>
+<img src="img/tabi.jp.png" width="350" height="370" alt="旅人">
+
+<h3 class="character-name">ウェンティ</h3>
+<p>吞兵衛詩人</p>
+<img src="img/baru.jp.png" width="250" height="350" alt="ウェンティ">
+
+<h3 class="character-name">鍾離</h3>
+<p>お金を持ち歩かない</p>
+<img src="img/mora.jp.png" width="250" height="350" alt="鍾離">
+
+<h3 class="character-name">雷電将軍</h3>
+<p>料理スキル0</p>
+<img src="img/rai.jp.png" width="250" height="350" alt="雷電">
+
+<h3 class="character-name">ナヒーダ</h3>
+<p>ナヒママ</p>
+<img src="img/nahi.jp.png" width="250" height="350" alt="ナヒーダ">
+
+<h3 class="character-name">フリーナ</h3>
+<p>フリ虐</p>
+<img src="img/furi.jp.png" width="250" height="350" alt="フリーナ">
+
+</section>
+
+<section id="town">
+<h2>テイワットの各街</h2>
+<p>各町の建築物には実際に存在した文化が含まれており、素晴らしい景色を眺めることができます。以下は主な町です。</p>
+
+<h3 class="town-name">モンド</h3>
+<p>風神「バルバトス」が守護する風の国「モンド」の中心都市です。中世ヨーロッパ風の建築が特徴で、美しい風景や自由な雰囲気が広がっています。町の中心には壮大な大聖堂があり、風の影響を強く感じることができます。</p>
+<img src="img/mon.jp.png" width="550" height="450" alt="モンド">
+
+<h3 class="town-name">璃月</h3>
+<p>岩神「モラクス」が守護する岩の国「璃月港」が中心の都市です。中国風の建築と伝統文化が色濃く反映されており、商業が盛んな地域です。</p>
+<img src="img/ri-yue.jp.png" width="550" height="450" alt="璃月">
+
+<h3 class="town-name">稲妻</h3>
+<p>雷神「バアルゼブル」が治める雷の国で、鎖国政策が敷かれている島国です。日本の江戸時代を彷彿とさせる建築や文化が特徴です。</p>
+<img src="img/ina.jp.png" width="550" height="450" alt="稲妻">
+
+<h3 class="town-name">スメール</h3>
+<p>草神	「クラクサナリデビ」 が守護する草の国で、豊かな自然と学術が発達した都市です。熱帯雨林や砂漠が広がる土地で、学問や知識を重んじる風潮があります。</p>
+<img src="img/sume.jp.png" width="550" height="450" alt="スメール">
+
+<h3 class="town-name">フォンテーヌ</h3>
+<p>水神「フォカロルス」が守護する水の国です。フランスのベルエポック時代を彷彿とさせる華やかな都市で、技術と文化が融合しています。</p>
+<img src="img/fon.jp.png" width="550" height="450" alt="フォンテーヌ">
+
+</section>
+
+</main>
+
 </body>
 </html>
